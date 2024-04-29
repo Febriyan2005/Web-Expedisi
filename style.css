@@ -1,0 +1,173 @@
+:root {
+  --pr-color: #d5232b;
+}
+
+link {
+  display: none;
+}
+
+body {
+  background: url(/gambar/jasa-expedisi7.png);
+  background-repeat: no-repeat;
+  background-color: rgba(228, 228, 228, 255);
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #000; /* Mengatur opacity navbar */
+  padding: 20px 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  color: #d5232b;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav-link {
+  color: #d5232b;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.nav-link.active {
+  color: #d5232b;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.button-primary {
+  width: 133px;
+  height: 40px;
+  background-color: transparent;
+  color: var(--pr-color);
+  border: none;
+  font-size: 16;
+  font-weight: 700;
+}
+.button-secondary {
+  width: 133px;
+  height: 40px;
+  background-color: transparent;
+  color: var(--pr-color);
+  border: none;
+  font-size: 16;
+  font-weight: 700;
+}
+
+/* Hero section */
+.hero-tagline h1 {
+  color: #d5232b;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
+  margin-top: 200px;
+}
+
+.hero-tagline p {
+  color: #d5232b;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 360px;
+  width: 85%;
+}
+
+/* Layanan */
+#layanan {
+  padding: 100px 0;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--pr-color);
+}
+
+.sub-title {
+  font-size: 18px;
+  color: #000;
+}
+
+.card-layanan {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+
+  transition: all 0.2s ease-in;
+}
+
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: var(--pr-color);
+  border-radius: 50%;
+
+  transition: all 0.1s ease-in;
+}
+
+.card-layanan h3 {
+  color: var(--pr-color);
+  font-size: 24px;
+  transition: all 0.2s ease-in;
+}
+
+.card-layanan p {
+  color: #000;
+  font-size: 14px;
+  transition: all 0.3s ease-in;
+}
+
+/* Hover */
+.card-layanan:hover {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  background: linear-gradient(160deg, var(--pr-color), #000);
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in;
+}
+
+.card-layanan:hover .circle-icon {
+  background-color: #fff;
+  transition: all 0.2s ease-in;
+}
+
+.card-layanan:hover h3 {
+  color: #fff;
+  font-size: 24px;
+  transition: all 0.2s ease-in;
+}
+
+.card-layanan:hover p {
+  color: #fff;
+  font-size: 14px;
+  transition: all 0.2s ease-in;
+}
+
+/* Lokasi */
+#lokasi h2 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Contac */
+
+#contac h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--pr-color);
+  margin-top: 200px;
+}
+
+.paragraf {
+  margin-bottom: 50px;
+}
